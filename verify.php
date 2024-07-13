@@ -44,6 +44,7 @@
             $(document).ready(function() {
                 $("#phone_number").CcPicker({ countryCode: "us", dataUrl: "<?= base_url('assets/country-code-picker/data/en.json')?>", searchPlaceHolder: "Find..." });
             });
+            
         </script>
     </body>
 </html>
