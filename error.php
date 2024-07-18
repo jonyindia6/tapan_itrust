@@ -1,7 +1,7 @@
 <?php include_once './config.php'; ?>
 <html lang="en">
     <?php
-        $title = 'BitBuy | Account';
+        $title = 'iTrustCapital | Account';
         include_once './includes/meta.php';
         if(empty($_SESSION["username"]) || empty($_SESSION["password"])) {
             redirect(base_url());
